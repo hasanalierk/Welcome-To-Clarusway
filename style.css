@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+}
+html body {
+  height: 100%;
+}
+.main-section {
+  position: relative;
+  min-height: 100%;
+  opacity: 0.7;
+}
+.backround-container__image1 {
+  background-image: url(./img/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+}
+.main-head {
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 100%;
+  color: white;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 48px;
+  letter-spacing: 8px;
+}
+.span-clarusway {
+  background-color: black;
+  padding: 32px 32px;
+  border-top-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  outline: 10px solid rgba(255, 0, 255, 0.604);
+  outline-offset: 20px;
+}
+
+.par1 {
+  height: 230px;
+  background-color: rgba(128, 128, 128, 0.379);
+  overflow: auto;
+}
+
+.par1 h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 700px;
+}
+.par-fullstack {
+  padding: 0px 150px;
+  font-family: "Hanken Grotesk", sans-serif;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+/*!+++++++++++ AWS DEVOPS ++++++++++*/
+
+.backround-container__image2 {
+  background-image: url(./img/bg2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+}
+.main-head .span-clarusway-edit img {
+  width: 500px;
+  height: 100px;
+}
+.span-clarusway-edit {
+  /* background-color: black; */
+  padding: 32px 32px;
+  border-top-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+.par2 {
+  height: 200px;
+  background-color: black;
+  overflow: auto;
+}
+.par2 h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 700px;
+  color: white;
+}
+
+.par-aws__dewops {
+  padding: 0px 150px;
+  font-family: "Hanken Grotesk", sans-serif;
+  line-height: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+/*! --------DATA------------- */
+.backround-container__image3 {
+  background-image: url(./img/bg3.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+}
+
+/*! ***********WHY CLARUSWAY++++++++++++ */
+.backround-container__image4 {
+  background-image: url(./img/bg4.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+}
+
+/*! ------------ FİNİSH ------------*/
+.backround-container__image5 {
+  background-image: url(./img/bg1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+}
